@@ -67,6 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E0BBE1E242C5C8200CACD53 /* People.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = People.json; sourceTree = "<group>"; };
+		5E0BBE1F242C5C8200CACD53 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5E0BBE20242C5C8200CACD53 /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
+		5E0BBE21242C5C8200CACD53 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5E0BBE22242C5C9000CACD53 /* SpeechDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDetectionViewController.swift; sourceTree = "<group>"; };
 		98EF73251FEEFC5E0059C186 /* watchkit-table-view-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchkit-table-view-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EF73281FEEFC5E0059C186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98EF732A1FEEFC5E0059C186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0BBE1D242C5C5200CACD53 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BBE22242C5C9000CACD53 /* SpeechDetectionViewController.swift */,
+				5E0BBE1F242C5C8200CACD53 /* Data.swift */,
+				5E0BBE1E242C5C8200CACD53 /* People.json */,
+				5E0BBE21242C5C8200CACD53 /* Person.swift */,
+				5E0BBE20242C5C8200CACD53 /* PersonProfile.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		98EF731C1FEEFC5E0059C186 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +178,7 @@
 				98EF73541FEEFC5E0059C186 /* PushNotificationPayload.apns */,
 				98EF73621FEEFEDA0059C186 /* RowController.swift */,
 				98EF73641FEF03750059C186 /* DetailInterfaceController.swift */,
+				5E0BBE1D242C5C5200CACD53 /* Extras */,
 			);
 			path = "watchkit-table-view-tutorial WatchKit Extension";
 			sourceTree = "<group>";

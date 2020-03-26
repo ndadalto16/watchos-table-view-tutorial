@@ -14,7 +14,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet var tableView: WKInterfaceTable!
     
-    let tableData = ["One", "Two", "Three", "Four", "Five", "Six"]
+    let tableData = ["Nathan DaDalto", "Jason Yan", "Sharon DaDalto", "Mike DaDalto", "Emily Da Dalto", "Six"]
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)

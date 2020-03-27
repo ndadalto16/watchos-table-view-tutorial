@@ -38,7 +38,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="149" y="259"/>
+            <point key="canvasLocation" x="220" y="339"/>
         </scene>
         <!--DetailInterfaceController-->
         <scene sceneID="Nkh-xa-m8J">
@@ -58,7 +58,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="502" y="259"/>
+            <point key="canvasLocation" x="468" y="339"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

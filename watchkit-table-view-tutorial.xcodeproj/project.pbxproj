@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E85FC37242D94D100EE53C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E85FC36242D94D100EE53C2 /* Main.storyboard */; };
 		98EF73291FEEFC5E0059C186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EF73281FEEFC5E0059C186 /* AppDelegate.swift */; };
 		98EF732B1FEEFC5E0059C186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EF732A1FEEFC5E0059C186 /* ViewController.swift */; };
-		98EF732E1FEEFC5E0059C186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF732C1FEEFC5E0059C186 /* Main.storyboard */; };
 		98EF73301FEEFC5E0059C186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EF732F1FEEFC5E0059C186 /* Assets.xcassets */; };
 		98EF73331FEEFC5E0059C186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF73311FEEFC5E0059C186 /* LaunchScreen.storyboard */; };
 		98EF73381FEEFC5E0059C186 /* watchkit-table-view-tutorial WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 98EF73371FEEFC5E0059C186 /* watchkit-table-view-tutorial WatchKit App.app */; };
@@ -72,10 +72,10 @@
 		5E0BBE20242C5C8200CACD53 /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		5E0BBE21242C5C8200CACD53 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5E0BBE22242C5C9000CACD53 /* SpeechDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDetectionViewController.swift; sourceTree = "<group>"; };
+		5E85FC36242D94D100EE53C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		98EF73251FEEFC5E0059C186 /* watchkit-table-view-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchkit-table-view-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EF73281FEEFC5E0059C186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98EF732A1FEEFC5E0059C186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98EF732D1FEEFC5E0059C186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98EF732F1FEEFC5E0059C186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EF73321FEEFC5E0059C186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98EF73341FEEFC5E0059C186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 			children = (
 				98EF73281FEEFC5E0059C186 /* AppDelegate.swift */,
 				98EF732A1FEEFC5E0059C186 /* ViewController.swift */,
-				98EF732C1FEEFC5E0059C186 /* Main.storyboard */,
+				5E85FC36242D94D100EE53C2 /* Main.storyboard */,
 				98EF732F1FEEFC5E0059C186 /* Assets.xcassets */,
 				98EF73311FEEFC5E0059C186 /* LaunchScreen.storyboard */,
 				98EF73341FEEFC5E0059C186 /* Info.plist */,
@@ -288,9 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E85FC37242D94D100EE53C2 /* Main.storyboard in Resources */,
 				98EF73331FEEFC5E0059C186 /* LaunchScreen.storyboard in Resources */,
 				98EF73301FEEFC5E0059C186 /* Assets.xcassets in Resources */,
-				98EF732E1FEEFC5E0059C186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +351,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98EF732C1FEEFC5E0059C186 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98EF732D1FEEFC5E0059C186 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98EF73311FEEFC5E0059C186 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -569,7 +561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zcdev.watchkit-table-view-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -584,7 +576,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zcdev.watchkit-table-view-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
